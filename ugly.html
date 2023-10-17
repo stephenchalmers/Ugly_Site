@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC's Ugly TE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rowdies:wght@300&display=swap"
+        rel="stylesheet">
+<!--     ^^ Ugliest Google Font I could find--channeling comic sans -->
+
+</head>
+<body>
+
+<!--Song Code TODO: Try to make it work -->
+
+    <audio autoplay>
+        <source src="https://www.askew-view.com/temp/te_ugly_site/aud/audio.mp3" />
+    </audio>
+
+    <script>
+        window.addEventListener("DOMContentLoaded", event => {
+        const audio = document.querySelector("audio");
+        audio.volume = 1;
+        audio.play();
+        });
+    </script>
+
+<!-- Images  -->
+    <img src="img/mark.png" alt="te logo" id="logo">
+    <img src="img/ACS.jpg" id="andy" alt="andy">
+    <img src="img/MG.png" alt="margaret" id="margaret">
+    <img src="img/DC.png" alt="daniel" id="daniel">
+    <img src="img/EC.jpg" alt="eric" id="eric">
+    <img src="img/MS.jpg" alt="mark" id="mark">
+
+<!-- Bouncy Text -->
+    <p id="teText">Tech</br>Elevator</p>
+    <p id="nlrText">NLR&nbsp;11</p>
+    
+</body>
+</html>

@@ -1,7 +1,8 @@
-# uglysite
+# U-G-L-Y, you ain't got no alibi (you ugly, eh, hey, you ugly)
+
 Making an ugly site through CSS. 
 
-Well, that pretty much says it all, but for some context, this was an entry in an ugly-website contest. 
+Well, that pretty much says it all, but for some context, this was a quick entry in an ugly-website contest. 
 
 <a href="https://stephenchalmers.github.io/Ugly_Site/ugly.html">Visit it here!!</a>
 

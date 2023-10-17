@@ -1,0 +1,108 @@
+
+#andy {
+  width: 10%;
+  position: absolute;
+  top: 10%;
+    left: 10%;
+    animation: spin .5s linear infinite;
+}
+
+#daniel {
+  width: 10%;
+  position: absolute;
+  bottom: 10%;
+    left: 10%;
+    animation: spin .5s linear infinite;
+}
+
+#eric {
+  width: 10%;
+  position: absolute;
+  bottom: 10%;
+    right: 10%;
+    animation: spin .5s linear infinite;
+}
+
+#mark {
+  width: 10%;
+  position: absolute;
+  top: 10%;
+    right: 10%;
+    animation: spin .5s linear infinite;
+  }
+
+#margaret {
+  width: 15%;
+  position: absolute;
+  top: 15%;
+    left: 50%;
+    animation: spin .5s linear infinite;
+}
+
+
+/* Obnoxious color background */
+@keyframes flashing {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: yellow;
+  }
+  40% {
+    background-color: green;
+  }
+  80% {
+    background-color: blue;
+  }
+  /* 100% {
+    background-color: red;
+  } */
+}
+
+body {
+  animation: flashing 0.2s linear infinite;
+}
+
+
+/* spin logo */
+#logo {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%, -50%) rotate(360deg);
+    animation: spin 1s linear infinite reverse;
+}
+
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* THIS DIDN'T WORK FOR SOME REASON */
+/* @keyframes border-move {
+  0% {
+    
+  }
+  25% {
+    top: 0;
+    right: 0;
+  }
+  50% {
+    bottom: 0;
+    right: 0;
+  }
+  75% {
+    bottom: 0;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+} */
